@@ -1,0 +1,38 @@
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$ git add .
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$ git ^C
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$ git ^[[200~ commit -m "First check"
+git: '' is not a git command. See 'git --help'.
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$ git commit -m "First check"
+[main cc87f29] First check
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text1.txt
+
+Hi@DESKTOP-1O8JNS6 MINGW64 /c/UbaleGit/Testing (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 273 bytes | 136.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Swapna34/Testing.git
+   a6ab82f..cc87f29  main -> main
+branch 'main' set up to track 'origin/main'.
